@@ -1,0 +1,295 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  color: #444;
+}
+a {
+  color: #1e2346;
+  text-decoration: none;
+}
+h2 {
+  font-weight: 800;
+  font-size: 45px;
+}
+.navbar-brand img {
+  max-width: 350px;
+  width: 350px;
+}
+.navbar {
+  border-top: 10px solid #1e2346;
+}
+.section-slider {
+  background-image: url("../img/slide.jpg");
+  background-size: cover;
+  background-position: top center;
+  padding: 60px 0;
+  min-height: 700px;
+}
+.section-slider .row {
+  align-items: center;
+}
+.section-slider::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  z-index: 1;
+}
+/* .slider_content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 4px;
+} */
+.slider_content h2 {
+  text-align: left;
+  font-size: 60px;
+  text-shadow: 0px 1px 0px #ccc;
+  position: relative;
+  z-index: 9;
+  color: #fff;
+}
+.slider_content ul li {
+  list-style: none;
+  font-size: 18px;
+  font-weight: 800;
+}
+.slider_content ul li span {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #171b36;
+  color: #f2bd1d;
+  display: inline-block;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 800;
+}
+.slider_content ul {
+  padding: 0;
+  margin: 0;
+  line-height: 35px;
+}
+.circle-title span {
+  height: 85px;
+  width: 150px;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 4px;
+  background: #1e2346;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+.rating img {
+  width: 160px;
+  margin-bottom: 8px;
+}
+.rating div {
+  font-weight: 600;
+}
+.rating .score {
+  padding-right: 15px;
+  position: relative;
+}
+.rating .nbr-reviews {
+  padding-left: 15px;
+}
+.rating .score::after {
+  content: "";
+  width: 2px;
+  height: 15px;
+  display: block;
+  position: absolute;
+  background: #1e2346;
+  right: 0;
+  top: 3px;
+}
+.circle-title {
+  position: absolute;
+  top: -85px;
+  right: -80px;
+}
+.intro-section {
+  background-color: #1e2346;
+  color: #fff;
+  padding: 50px 0;
+}
+.intro-section h2 {
+  color: #fea115;
+}
+.intro-section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.intro-section ul li {
+  display: inline-block;
+  background: #171b36;
+  padding: 3px 20px;
+  margin: 2px 0;
+  border-radius: 50px;
+  font-size: 20px;
+}
+.landing-form {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 4px;
+  min-height: 360px;
+  z-index: 9;
+}
+h3 {
+  color: #1e2346;
+  font-weight: 700;
+  font-size: 22px;
+}
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:disabled {
+  background-color: #fea115;
+  border-color: #fea115;
+}
+.form-control {
+  border: 2px solid #ccc;
+}
+.solar-panel-section {
+  background-image: url("../img/house-solar-panel.jpg");
+  background-size: 50%;
+  background-position: left center;
+  padding: 100px 0;
+  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+}
+.solar-panel-section h3 {
+  color: #1e2346;
+}
+.services {
+  padding: 60px 0;
+}
+.services img {
+  max-width: 60px;
+  margin-bottom: 20px;
+}
+.call_to_action_container {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #1e2346;
+}
+.call_to_action_container h3 {
+  color: #fff;
+}
+
+.footer {
+  padding: 30px 0;
+  background: #171b36;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+}
+.testimonials {
+  background-image: url("../img/solar-panel-worker.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0;
+  color: #fff;
+}
+.blockquote-content {
+  font-size: 30px;
+  font-weight: 600;
+}
+.blockquote-footer {
+  color: #fff;
+}
+blockquote img {
+  max-width: 50px;
+  display: block;
+  margin-bottom: 15px;
+}
+.btn-submit img {
+  width: 30px;
+}
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-weight: 800;
+    font-size: 40px;
+  }
+  .circle-title {
+    display: none;
+  }
+  .intro-section ul li i {
+    display: none;
+  }
+  .solar-panel-section {
+    background-image: none;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
+
+.question,
+#results {
+  display: none;
+}
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.button li {
+  border-radius: 4px;
+  background-color: #f2bd1d;
+  text-align: center;
+  line-height: 2em;
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.button li:hover {
+  color: #f2bd1d;
+  background-color: #1e2346;
+}
+
+/* #intro,
+.question,
+#results {
+  max-width: 640px;
+  margin: 3em auto;
+} */
+
+#beginquiz {
+  border-radius: 4px;
+  background-color: #f2bd1d;
+  text-align: center;
+  line-height: 2em;
+  padding: 0.5em;
+  width: 90%;
+  margin: 0 auto;
+  cursor: pointer;
+  font-size: 19px;
+  font-weight: 800;
+}
+#beginquiz:hover {
+  color: #f2bd1d;
+  background-color: #1e2346;
+}
+.landing-form h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+#intro img,
+.question img {
+  margin-bottom: 30px;
+}

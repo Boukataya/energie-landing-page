@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title></title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <!-- Responsive navbar-->
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="/"> <img src="img/zonnepanelen-logo.svg" alt="" srcset="" /> </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <div class="rating">
+            <img src="img/rating-stars.png" alt="" srcset="" />
+            <div class="div"><span class="score">9.3/10</span><span class="nbr-reviews">1421 Beoordelingen</span></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Page content-->
+    <section class="section-slider position-relative">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 slider_content hide-mobile">
+            <h2>Waarom kiezen 3 miljoen huishoudens voor zonnepanelen?</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="landing-form">
+              <div id="intro" class="text-center">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Check gratis of jouw dak geschikt is!</h2>
+                <div id="beginquiz">CHECK NU ></div>
+              </div>
+
+              <div class="question text-center" id="q1" data-next="q2">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Heb je een koop- of huurwoning?</h2>
+                <ol class="button">
+                  <li>Koopwoning</li>
+                  <li>Huurwoning</li>
+                </ol>
+              </div>
+
+              <div class="question text-center" id="q2" data-next="q3">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Zou je zonnepanelen willen kopen of huren?</h2>
+                <ol class="button">
+                  <li>Kopen</li>
+                  <li>Huren</li>
+                  <li>Weet niet</li>
+                </ol>
+              </div>
+
+              <div class="question text-center" id="q3" data-next="q4">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Wat voor type dak heb je?</h2>
+                <ol class="button">
+                  <li>Schuin dak</li>
+                  <li>Plat dak</li>
+                  <li>Plat en schuin dak</li>
+                  <li>Geen eigen dak</li>
+                </ol>
+              </div>
+
+              <div class="question text-center" id="q4" data-next="q5">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Wanneer zou je zonnepanelen willen aanschaffen?</h2>
+                <ol class="button">
+                  <li>Zo snel mogelijk</li>
+                  <li><3 maanden</li>
+                  <li>3 tot 6 maanden</li>
+                  <li>6 tot 12 maanden</li>
+                  <li>In overleg</li>
+                </ol>
+              </div>
+              <div class="question text-center" id="q5" data-next="q6">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Wat is jouw jaarlijkse stroomverbruik (elektriciteit)?</h2>
+                <ol class="button">
+                  <li>0-1000kwh</li>
+                  <li>1000-1500kwh</li>
+                  <li>1500-2000kwh</li>
+                  <li>2000-2500kwh</li>
+                  <li>2500-3000kwh</li>
+                  <li>3000-3500kwh</li>
+                  <li>3500-4000kwh</li>
+                  <li>4000-4500kwh</li>
+                  <li>4500-5000kwh</li>
+                  <li>5000kwh of meer</li>
+                  <li>Weet ik niet</li>
+                </ol>
+              </div>
+
+              <div class="question text-center" id="q6" data-next="q7">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Wat voor type woning heb je?</h2>
+                <ol class="button">
+                  <li>Rijtjeshuis</li>
+                  <li>Hoekwoning</li>
+                  <li>2-onder-1 kap</li>
+                  <li>Vrijstaand</li>
+                  <li>Appartement</li>
+                </ol>
+              </div>
+
+              <div class="question text-center" id="q7" data-next="results">
+                <img src="img/solar-house.png" width="90" alt="" srcset="" />
+                <h2>Wanneer wordt je het liefst gebeld?</h2>
+                <ol class="button">
+                  <li>Maakt niet uit</li>
+                  <li>9:00-13:00 uur</li>
+                  <li>13:00-18:00 uur</li>
+                  <li>+18:00 uur</li>
+                </ol>
+              </div>
+
+              <div id="results" class="animate__animated animate__bounceIn">
+                <h3>U wenst te besparen op uw energiekosten en onafhankelijk te worden van traditionele leveranciers?</h3>
+                <p>Volg het voorbeeld van onze +<strong>2000</strong> klanten die al gekozen hebben voor duurzame, groene en veilige</p>
+                <p>Vul onderstaand formulier in, wij maken een <strong>gedetailleerde offerte</strong> op maat en voeren <strong>gratis een besparingsanalyse</strong> uit.</p>
+                <h3 style="margin-bottom: 15px">Vraag uw gratis offerte aan</h3>
+                <form class="needs-validation" novalidate id="contact-form">
+                  <div class="mb-3">
+                    <input type="hidden" name="question0" id="question0" />
+                    <input type="hidden" name="question1" id="question1" />
+                    <input type="hidden" name="question2" id="question2" />
+                    <input type="hidden" name="question3" id="question3" />
+                    <input type="hidden" name="question4" id="question4" />
+                    <input type="hidden" name="question5" id="question5" />
+                    <input type="hidden" name="question6" id="question6" />
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control form-control-lg" name="username" placeholder="Naam + Voornaam*" required />
+                  </div>
+                  <div class="mb-3">
+                    <input type="email" class="form-control form-control-lg" name="email" placeholder="E-mail*" required />
+                  </div>
+                  <div class="mb-3">
+                    <input type="tel" class="form-control form-control-lg" name="phone" placeholder="Telefoonnummer*" required />
+                  </div>
+                  <div class="mb-3">
+                    <input type="text" class="form-control form-control-lg" name="postcode" placeholder="Postcode*" required />
+                  </div>
+                  <button type="submit" id="submit-btn" class="btn btn-primary btn-submit col-12 btn-lg">Aanvraag versturen</button>
+                  <small>
+                    Door hieronder op 'Aanvraag versturen' te klikken, geef je toestemming aan NWO om de hierboven ingediende persoonlijke informatie op te slaan en te
+                    verwerken om je van de gevraagde inhoud te voorzien.
+                  </small>
+                </form>
+                <div class="circle-title">
+                  <span> Wij voeren een gratis besparingsanalyse uit voor u ! </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="intro-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <ul>
+              <li><i class="fa-solid fa-circle-check"></i> Bespaar honderden euro's per jaar op je energierekening</li>
+              <li><i class="fa-solid fa-circle-check"></i> Investering al binnen 3,5 jaar terugverdiend</li>
+              <li><i class="fa-solid fa-circle-check"></i> Na de terugverdientijd produceer je zo’n 20 jaar gratis stroom</li>
+              <li><i class="fa-solid fa-circle-check"></i> Minder afhankelijk van schommelende energieprijzen</li>
+              <li><i class="fa-solid fa-circle-check"></i> Draag bij aan het bestrijden van klimaatverandering</li>
+              <li><i class="fa-solid fa-circle-check"></i> Werken geluidloos en zijn vrijwel onderhoudsvrij</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="solar-panel-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6 ps-5">
+            <h2>
+              Haal rendement<br />
+              uit uw zonnepanelen
+            </h2>
+            <p>
+              Een vraag die wij vaak te horen krijgen is “Zijn zonnepanelen vandaag nog interessant?” Wij kunnen u met zekerheid antwoorden dat de aankoop van een
+              zonnepaneleninstallatie u zeer veel kan opbrengen, ook in 2023.
+            </p>
+            <p>
+              Elektriciteit is duur in België en zal vermoedelijk niet goedkoper worden, waardoor het interessant is om een deel ervan zelf te produceren via zonnepanelen. Uw
+              energiefactuur gaat automatisch omlaag.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <div class="row text-center">
+          <h2 class="mb-5">Zonnepanelen installeren die <br />maximaal in 3 stappen</h2>
+          <div class="col-md-4">
+            <div>
+              <img src="img/number-1.png" alt="" srcset="" />
+              <h4>Offerte aanvraag</h4>
+              <p>Vraag uw gratis en vrijblijvende offerte voor zonnepanelen aan.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img src="img/number-2.png" alt="" srcset="" />
+              <h4>Bezoek adviseur</h4>
+              <p>Bezoek van onze adviseur voor analyse en berekening.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <img src="img/number-3.png" alt="" srcset="" />
+              <h4>Plaatsing</h4>
+              <p>Wij bezorgen een offerte. Uw zonnepanelen installatie wordt geplaatst en gekeurd met de beste service.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button type="button" class="btn btn-primary btn-lg backToTop">Vraag uw gratis offerte aan</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <blockquote>
+              <p class="blockquote-content">
+                <img src="img/quote.svg" alt="" srcset="" />
+                Heel tevreden over zowel de planning als de plaatsing. Een duidelijke uitleg over alle aspecten van de zonnepanelen met een snelle en efficiënte plaatsing en
+                aansluiting.
+              </p>
+              <footer class="blockquote-footer">
+                <cite title="blockquote-name">M. Vanbiervliet</cite>
+              </footer>
+            </blockquote>
+          </div>
+          <div class="col-md-6"></div>
+        </div>
+      </div>
+    </section>
+    <section class="call_to_action_container">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h3 style="padding-top: 12px">Benieuwd wat zonnepanelen voor u kunnen betekenen?</h3>
+          </div>
+          <div class="col-md-4">
+            <button type="button" class="btn btn-primary btn-lg backToTop">Vraag uw gratis offerte aan</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            &copy; 2023 - Offerte Pagina<br />
+            <a href="#" data-bs-toggle="modal" data-bs-target="#algemene_voorwaarden">Algemene voorwaarden</a> -
+            <a href="#" data-bs-toggle="modal" data-bs-target="#privacybeleid">Privacybeleid</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+      integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
+    <script>
+      $(".backToTop").click(function () {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+      });
+    </script>
+  </body>
+
+  <!-- Modal -->
+  <div class="modal fade" id="algemene_voorwaarden" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Algemene voorwaarden</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="privacybeleid" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Privacybeleid</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, unde eum? Natus minima nisi iste praesentium perspiciatis accusamus quia accusantium autem eius,
+            voluptas provident rerum velit nesciunt unde tempora beatae obcaecati reprehenderit fugiat? Iste officia asperiores atque sapiente ad magnam repellat aliquid natus,
+            dolorem, omnis praesentium recusandae quisquam nihil optio, rem ipsam debitis voluptate maiores iusto quam? Autem tempore tenetur enim numquam itaque error accusantium
+            laudantium consequatur incidunt. Numquam sunt molestiae, perspiciatis harum dignissimos, porro nesciunt excepturi neque itaque omnis, maxime corrupti voluptates
+            deserunt. Obcaecati magnam nemo voluptatum velit itaque ab commodi cumque, eveniet quod! Explicabo veniam fuga praesentium iste?
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</html>
